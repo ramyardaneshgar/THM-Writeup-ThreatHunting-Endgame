@@ -5,7 +5,7 @@ By Ramyar Daneshgar
 
 ### **TryHackMe Writeup: Threat Hunting - Endgame**
 
-In this lab, I was identifying and investigating adversary tactics in the **Endgame** phase, focusing on **Collection (TA0009)**, **Exfiltration (TA0010)**, and **Impact (TA0040)** using the **ELK Stack**. By applying a proactive threat-hunting mindset, I uncovered malicious activities like **keylogging**, **ICMP-based data exfiltration**, and **shadow copy removal**, emphasizing adversarial objectives within the **Cyber Kill Chain**.
+In this lab, I was identifying and investigating adversary tactics in the **Endgame** phase, focusing on **Collection (TA0009)**, **Exfiltration (TA0010)**, and **Impact (TA0040)** using the **ELK Stack**. By applying a proactive threat-hunting, I uncovered malicious activities like **keylogging**, **ICMP-based data exfiltration**, and **shadow copy removal**, emphasizing adversarial objectives within the **Cyber Kill Chain**.
 
 ---
 
