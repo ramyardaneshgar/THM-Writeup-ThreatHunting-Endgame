@@ -14,7 +14,7 @@ In this lab, I was identifying and investigating adversary tactics in the **Endg
 The **Collection tactic** involves adversaries gathering sensitive information like credentials or PII. In this case, I focused on detecting **keylogging activity**, particularly through API-based techniques.
 
 1. **Formulating the Hypothesis**  
-   I hypothesized that a keylogger might be using **Windows API calls** or low-level hooks to capture keystrokes. I crafted my initial query to search for suspicious **API calls** such as `GetKeyboardState` or `SetWindowsHookEx`.
+   I hypothesized that a keylogger might be using **Windows API calls** or low-level hooks to capture keystrokes. I created my initial query to search for suspicious **API calls** such as `GetKeyboardState` or `SetWindowsHookEx`.
 
 2. **Initial Investigation**  
    Using the ELK dashboard, I ran a query to identify patterns associated with keylogging behavior:
@@ -40,7 +40,7 @@ The **Collection tactic** involves adversaries gathering sensitive information l
 The **Exfiltration tactic** involves transferring stolen data out of the network. I focused on identifying data exfiltration over **ICMP**, a covert channel commonly used to bypass detection.
 
 1. **Formulating the Hypothesis**  
-   I hypothesized that ICMP traffic might be abused for data exfiltration. I crafted my query to search for common system utilities like `ping` or `Invoke-WebRequest` in the log files.
+   I hypothesized that ICMP traffic might be abused for data exfiltration. I created my query to search for common system utilities like `ping` or `Invoke-WebRequest` in the log files.
 
 2. **Initial Investigation**  
    I ran the following query to find matches for suspicious system calls:
